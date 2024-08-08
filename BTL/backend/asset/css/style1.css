@@ -1,0 +1,364 @@
+.alert-danger{
+	background-color: #E31F23 ;
+	color: #fff ;
+}
+
+#content-login-admin {
+    background-color: #cee7e7;
+    margin: 150px 312px;
+}
+
+#content-login-admin .form-login {
+    background-color: #5eafd8;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 100px 50px;
+}
+
+#content-login-admin .title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#content-login-admin .title h3{
+    font-size: 25px;
+    color: #fff;
+    font-style: unset;
+}
+
+#content-login-admin .user-admin{
+    padding-bottom: 30px;
+}
+
+#content-login-admin input{
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 3px;
+    border: 0px;
+}
+
+#content-login-admin .btn-login{
+    margin-top: 23px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+#content-login-admin .login{
+    border-radius: 6px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(104, 104, 248);
+    border: 0px;
+}
+
+#content-login-admin i[class*="ti-"] {
+    color: #fff;
+}
+
+#content-login-admin .forget{
+    padding-bottom: 20px;
+}
+
+#content-login-admin .forget a{
+    color: #fff;
+}
+
+#header-admin {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    background-color: #fff;
+}
+
+#header-admin .logo{
+    transform: translateX(50px);
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    height: 70px;
+    margin-left: -70px;
+}
+
+#header-admin form{
+	display: inline-block;
+}
+
+#header-admin .btn-search{
+	border-radius: 40px;
+    border: 0px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+#header-admin .search-btn{
+    float: right;
+    padding: 0 10px;
+    line-height: 70px;
+}
+
+#header-admin .login-btn{
+    float: right;
+    line-height: 70px;
+    padding: 0 16px;
+    font-size: 19px;
+}
+
+#header-admin .btn {
+    border: 0px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+#header-admin .logo img{
+    height: 70px;
+    margin-left: 55px;
+}
+
+#header-admin input{
+    border-radius: 40px;
+    padding: 3px;
+    border: 1px solid #DCDCDC;
+    height: 35px;
+}
+
+#content-admin,
+#content-change {
+    margin-top: 75px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-left{
+    width:12%;
+}
+
+.menu-left div{
+    padding: 19px;
+    font-weight: 700;
+}
+
+#content .row{
+	    display: flex;
+}
+
+#content-admin .dashboard{
+    background-color: #63B8FF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#content-admin .content-admin-right{
+    padding-top: 25px;
+    padding-left: 125px;
+    background-color: #c5e8ee;
+}
+
+#content-admin .content-admin-right .btn{
+    height: 96px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #63B8FF;
+    width: 140px;
+    margin-right: 170px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.content-admin-right img{
+    width: 100%;
+    margin-left: -49px;
+    padding-top: 36px;
+}
+
+#content-change .right-fix{
+    padding-left: 40px;
+    background-color: #c5e8ee;
+    padding-right: 150px;
+}
+
+#content-change td{
+    padding: 10px 65px;
+    text-align: center;
+}
+
+#content-change .btn{
+    margin: 20px 0px;
+    text-align: end;
+}
+
+#content-change .btn button{
+    height: 35px;
+    width: 70px;
+    background-color: #63B8FF;
+    border: 0px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+#content-change table{
+    margin-top: 35px;
+}
+
+#content .container{
+    margin-left: 10px;
+}
+#content p{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#content .category-left ul {
+    list-style: none;
+	padding-left: 0px;
+}
+#content .category-left{
+    width: 17%;
+    margin-top: 10px;
+}
+#content .category-right{
+    width: calc(100%);
+    background-color: #c5e8ee;
+}
+
+#content .category-left a {
+    text-decoration: none;
+    color : #333; 
+}
+#content .category-left ul li {
+    padding: 12px 0;
+}
+#content .category-left ul li>a{
+    color : black; 
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+#content .category-left ul li ul li{
+    padding-left: 30px; 
+}
+
+.category-left-li ul {
+   /* display: none; */
+}
+.category-left-li.block ul {
+   display: block; 
+}
+#content .nav-ti-plus{
+
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+}
+li.category-left-li.block{
+    display: block;
+}
+/*-----------------Thêm sản phẩm *-*/
+.category-right h1{
+    margin: 50px 18px;
+}
+.category-right h3{
+    margin: 20px;
+    font-size: 25px;
+}
+.category-product-left input{
+    width: 350px;
+    height: 40px;
+    display: block;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid ;
+}
+.category-product-right-p1 input{
+    width: 350px;
+    height: 40px;
+    display: block;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid ;
+}
+input.size {
+    width: 20px;
+    height: 15px;
+    font-size: 16px;
+}
+
+.category-right-product-add p input{
+    border-radius: 0px;
+    border: 0px solid ;
+}
+
+
+.category-right-product-add textarea{
+    display: block;
+    height: 200px;
+    width: 427px;
+    margin: 20px;
+}
+.category-right-product-add{
+    display: flex;
+}
+.category-right-product-add .category-product-left{
+    width: 50%;
+}
+.category-right-product-add .category-product-right{
+    width: 50%;
+}
+
+.category-right-product-add .modal{
+    border: 1px solid #00000285;
+    border-radius: 16px;
+    margin: 20px 20px;
+}
+.category-right-product-add label{
+    padding: 20px;
+    opacity: 0.8;
+    color: #333;
+}
+.category-right button{
+    float: right;
+    background: #145caddc;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-weight: 500;
+    padding: 1.4em 1.7em;
+    text-align: center;
+    cursor: pointer;
+    margin: 22px;
+}
+.category-right-product-add input>.size{
+    display: inline-block;
+    margin: 5px;
+    width: 48px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    border: 1px #c7bfbf;
+    background-color: #145caddc;
+    text-align: center;
+    padding: 6px 6px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#content {
+}
+#dongke {
+    opacity: 0.2;
+    margin-top: 10px;
+}
+img {
+    width: 200px;
+}
+
